@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node dist/api.js",
     "build": "tsc",
-    "dev": "tsx api.ts"
+    "dev": "tsx api.ts",
+    "test": "node --experimental-test-module-mocks --import tsx --test *.test.cjs"
   },
   "keywords": [],
   "author": "Jeff Pereira",
